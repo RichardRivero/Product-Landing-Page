@@ -1,3 +1,33 @@
-h1{
+#header{
+    position: fixed;
+    background-color: aqua;
+    top: 0%;
+    width: 100%;
+    height: auto;
     font-size: 10px;
+    z-index: 1;
+}
+
+
+form, footer{
+    display: block;
+}
+
+
+form{
+    
+    position: relative;
+    width: 30%;
+    align-self: auto;
+    margin: 0.5em;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    padding: 1.2em;
+    text-align: center;
+
+
 }
