@@ -8,11 +8,40 @@
     z-index: 1;
 }
 
+body{
+    background-color: bisque;
+    margin-top: 250px;
+}
+#header-img{
+    width: 200px;
+    height: auto;
+}
 
 form, footer{
     display: block;
 }
 
+#nav-bar ul{
+    list-style-type: none;  /*quita los puntos */
+    text-align: center;     /*centra el contenido */
+    
+}
+
+#nav-bar li{
+    display: inline;  /* los colocas a todos dentro de una misma linea */
+    text-align: center;  
+    margin: 0 10px 0 0;
+}
+
+#nav-bar li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    text-decoration: none; /*quita la decoracion del texto */
+    border-radius: 10px;
+}
 
 form{
     
