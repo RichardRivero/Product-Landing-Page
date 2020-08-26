@@ -11,26 +11,36 @@
     z-index: 1;
     margin-left: -10px;
 }
-
+#header-img{
+    /*position: absolute;  /* no toma en cuenta a los demas componentes y se deslinda del flujo de cajas */
+    float: left;
+    width: 10%;
+   /* bottom: 1px;
+    left: 25px; */
+    width: 150px;
+    height: auto;
+}
 #Nombre{
-    display: block;
-    position: relative;
+    float: left;
+    width: 25%;
+    margin-left: 10px;
     font-size: 50px;
     font-family: Lobster;
     font-weight: bold;
+}
+#div-nav{
+    float: right;
+    width: 70%;
 }
 
 body{
     background-color: bisque;
     margin-top: 250px;
 }
-#header-img{
-    width: 200px;
-    height: auto;
-}
 
-
-#video{
+#video-t{
+    position: relative;
+    bottom: 200px;
     width: 360;
     height: 480;
 }
@@ -61,10 +71,11 @@ form, footer{
     border-radius: 10px;
 }
 article{
-    margin: 10px 10% 10px 10%;
+    width: 75%;
+    margin: auto;
 }
+
 form{
-    
     position: relative;
     width: 30%;
     align-self: auto;
@@ -74,7 +85,6 @@ form{
 footer{
     width: 100%;
     height: auto;
-    background-color: aqua;
     padding: 1.2em;
     text-align: center;
     margin-bottom: -15px;
