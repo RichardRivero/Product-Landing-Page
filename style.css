@@ -40,9 +40,10 @@ body{
 
 #video-t{
     position: relative;
-    bottom: 200px;
-    width: auto;
-    height: auto;
+    top: 200px;
+    width: 640px;
+    height: 480x;
+    z-index: 0;
 }
 
 form, footer{
@@ -71,6 +72,7 @@ form, footer{
     border-radius: 10px;
 }
 article{
+   
     width: 75%;
     margin: auto;
 }
