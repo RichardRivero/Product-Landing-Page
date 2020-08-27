@@ -8,7 +8,7 @@
     width: 100%;
     height: auto;
     font-size: 10px;
-    z-index: 1;
+    z-index: 5;
     margin-left: -10px;
 }
 #header-img{
@@ -40,10 +40,12 @@ body{
 
 #video-t{
     position: relative;
-    top: 200px;
+    top: 20px;
     width: 640px;
     height: 480x;
-    z-index: 0;
+    border-radius: 25px;
+    z-index: 1;
+    
 }
 
 form, footer{
@@ -71,11 +73,12 @@ form, footer{
     text-decoration: none; /*quita la decoracion del texto */
     border-radius: 10px;
 }
+
 article{
-   
     width: 75%;
     margin: auto;
 }
+
 
 form{
     position: relative;
