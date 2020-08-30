@@ -27,7 +27,7 @@ header{
 
     width: 150px;
     height: 130px;
-    margin: 0 0 0 10px
+    margin: 0px 0px 0px 10px
 }
 #Nombre{
    /* float: left;*/
@@ -127,4 +127,32 @@ footer{
     margin-bottom: -15px;
     margin-left: -15px;
     background-image:url("img/fondo-de-madera.jpg");
+}
+
+@media (max-width: 700px){
+
+
+#header{
+    
+    flex-direction: column;
+    height: 250px;   
+}
+
+#Nombre{
+    text-justify: auto;
+     margin: 0px 0px 0px 0px;
+     width: 25%;
+     font-size: 30px;
+     font-family: Lobster;
+     font-weight: bold;
+ }
+ #header-img{
+
+    width: 150px;
+    height: 130px;
+}
+
+.counter-toy{
+    flex-direction: column; 
+   }
 }
