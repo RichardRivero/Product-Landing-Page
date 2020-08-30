@@ -2,7 +2,6 @@
 
 
 header{
-
     font-size:1.75em;
 }
 
@@ -42,7 +41,7 @@ header{
 
 body{
     background-color: bisque;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 #video-t{
@@ -97,8 +96,11 @@ form, footer{
 }
 
 article{
-    width: 75%;
+    background: rgba(230, 206, 65, 0.1);
+    width: 80%;
     margin: auto;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 form{
@@ -111,7 +113,12 @@ form label{
     font-family:lobster ;
 }
 
+fieldset{
+    border-radius: 15px ;
+}
+
 footer{
+    font: 1.5em Lobster;
     width: 100%;
     height: auto;
     padding: 1.2em;
