@@ -12,7 +12,6 @@
     <header id="header" class="header">
         <p id="Nombre">Mundo Madera</p>
         <img src="./img/logo.png" alt="logo empresa" id="header-img">
-        <div id="div-nav">
         <nav id="nav-bar">
             <ul>
                 <li><a href="#inicio" class="nav-link">Inicio</a></li>
@@ -22,13 +21,12 @@
                 <li><a href="#Contacto" class="nav-link">Contacto</a></li>
             </ul>
         </nav>
-        </div>
     </header>
     <article>     
         <section>
             <header id="inicio">Inicio</header>
-            <video src="http://drive.google.com/uc?export=view&id=1ccbhg4lNRwyZycCoW7XCBXFhDQjAbTkM" id="video-t" controls>
-            </video>
+            <!--<video src="http://drive.google.com/uc?export=view&id=1ccbhg4lNRwyZycCoW7XCBXFhDQjAbTkM" id="video-t" controls>
+            </video> -->
         </section > 
             
         <section>
@@ -39,7 +37,11 @@
 
         <section>
             <header id="boyToy">Juguetes</header>
-            
+            <div  class="counter-toy">
+                <img src="img/carro1-min.jpg" alt="" class="img-toy">
+                <img src="img/carro2-min.jpg" alt="" class="img-toy">
+                <img src="img/carro3-min.jpg" alt="" class="img-toy">
+            </div>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, velit debitis quam dignissimos, nemo temporibus nobis optio exercitationem sapiente libero placeat, repudiandae quae veritatis rem ducimus voluptatibus in quaerat quia!</p>
         </section>
 
@@ -53,13 +55,15 @@
             <header id="Contacto">pagina</header>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quis, odit provident deleniti fugiat quod earum ipsa doloribus asperiores modi voluptatum architecto omnis iusto, quo iure nihil deserunt praesentium. Qui.</p>
+        
+      
         <form action="https://www.freecodecamp.com/email-submit" target="_blank" id="form">
             <fieldset>
                 <P>Puedes contactarme rellenado el Formulario</P>
             <input type="text" placeholder="Nombre" id="nombre" name="nombre" ><br>
             <label for="nombre">Coloca tu nombre</label><br>
 
-            <input type="number" placeholder="Telefono" id="number-tlf" name="number-tlf" ><br>
+            <input type="text" placeholder="Telefono" id="number-tlf" name="number-tlf" ><br>
             <label for="number-tlf">Coloca tu numero de telefono </label><br>
 
             <input type="email" placeholder="email@gmail.com" id="email" name="email" ><br>
@@ -67,6 +71,7 @@
             <input type="submit" id="submit" value="Submit">
             </fieldset>
         </form>
+       
 
         </section>
     </article>
