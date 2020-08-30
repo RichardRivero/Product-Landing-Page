@@ -1,6 +1,12 @@
 
 
 
+header{
+
+    font-size:1.75em;
+}
+
+
 #header{
     position: fixed;
     background-image:url("img/fondo-de-madera.jpg");
@@ -94,8 +100,6 @@ article{
     width: 75%;
     margin: auto;
 }
-
-
 
 form{
     font-family: Rubik;
