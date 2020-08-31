@@ -44,13 +44,23 @@ body{
     margin-top: 150px;
 }
 
+.s-video{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.s-video header{
+    flex-grow: 5;
+}
 #video-t{
-    position: relative;
-    top: 20px;
+    flex-wrap: 1;    /* hay que modificar */
     width: 324px; /* 640   324 480 */
     height: 240x;
     border-radius: 25px;
 }
+
+
 
 .counter-toy{
     margin:auto;
