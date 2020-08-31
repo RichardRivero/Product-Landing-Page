@@ -24,7 +24,6 @@ header{
 }
 
 #header-img{
-
     width: 150px;
     height: 130px;
     margin: 0px 0px 0px 10px
@@ -33,6 +32,7 @@ header{
    /* float: left;*/
     width: 25%;
     margin-left: 15px;
+    text-align:center ;
     font-size: 50px;
     font-family: Lobster;
     font-weight: bold;
@@ -62,12 +62,14 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .img-toy{
     border-radius: 20px;
     width: 100px;
     height: 100px;
+    margin: 10px
 } 
 
 form, footer{
@@ -131,28 +133,30 @@ footer{
 
 @media (max-width: 700px){
 
-
 #header{
-    
     flex-direction: column;
-    height: 250px;   
+    height: 250px;
+    justify-content: stretch;   
 }
 
 #Nombre{
     text-justify: auto;
-     margin: 0px 0px 0px 0px;
-     width: 25%;
-     font-size: 30px;
-     font-family: Lobster;
-     font-weight: bold;
+    margin: 0px 0px 0px 0px;
+    width: 25%;
+    font-size: 30px;
+    font-family: Lobster;
+    font-weight: bold;
  }
- #header-img{
 
+ #header-img{
     width: 150px;
     height: 130px;
 }
 
+body{
+    margin-top: 280px;
+}
 .counter-toy{
-    flex-direction: column; 
+    flex-direction: column;
    }
 }
