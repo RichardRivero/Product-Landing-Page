@@ -8,7 +8,7 @@ header{
 
 #header{
     position: fixed;
-    background-image:url("img/fondo-de-madera.jpg");
+    background-image:url("http://drive.google.com/uc?export=view&id=1Nj3AYzUNpLel4ZL8_4LYUCoWrNwLKgtl");
     top: 0%;
     width: 100%;
     height: 130px;
@@ -47,11 +47,9 @@ body{
 #video-t{
     position: relative;
     top: 20px;
-    width: 640px;
-    height: 480x;
+    width: 324px; /* 640   324 480 */
+    height: 240x;
     border-radius: 25px;
-    z-index: 1;
-    
 }
 
 .counter-toy{
@@ -67,8 +65,8 @@ body{
 
 .img-toy{
     border-radius: 20px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 10px
 } 
 
@@ -128,7 +126,7 @@ footer{
     margin-top: 10px;
     margin-bottom: -15px;
     margin-left: -15px;
-    background-image:url("img/fondo-de-madera.jpg");
+    background-image:url("http://drive.google.com/uc?export=view&id=1Nj3AYzUNpLel4ZL8_4LYUCoWrNwLKgtl");
 }
 
 @media (max-width: 700px){
@@ -156,6 +154,7 @@ footer{
 body{
     margin-top: 280px;
 }
+
 .counter-toy{
     flex-direction: column;
    }
