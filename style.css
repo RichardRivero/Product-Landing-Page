@@ -51,7 +51,7 @@ body{
 }
 
 .s-video header{
-    flex-grow: 5;
+    flex-grow: 5;   /*hay que ir modificando*/
 }
 #video-t{
     flex-wrap: 1;    /* hay que modificar */
