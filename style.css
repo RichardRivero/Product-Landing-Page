@@ -27,7 +27,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 #header-img{
@@ -73,14 +73,14 @@ body{
 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
 }
 
 .img-toy{
     border-radius: 20px;
-    width: 200px;
+    width: 215px;
     height: 200px;
     margin: 10px
 } 
@@ -97,7 +97,7 @@ form, footer{
 #nav-bar li{
     display: inline;  /* los colocas a todos dentro de una misma linea */
     text-align: center;  
-    margin: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
 }
 
 #nav-bar li a {
@@ -139,12 +139,10 @@ fieldset p{
 footer{
     font: 1.5em Lobster;
     width: 100%;
-    height: auto;
-    padding: 1.2em;
+    height: 100%;
+    padding: 0px;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: -15px;
-    margin-left: -15px;
     background-image:url("http://drive.google.com/uc?export=view&id=1Nj3AYzUNpLel4ZL8_4LYUCoWrNwLKgtl");
 }
 
