@@ -156,10 +156,11 @@ footer{
 #Nombre{
     text-justify: auto;
     margin: 0px 0px 0px 0px;
-    width: 25%;
-    font-size: 30px;
+    width: 10%;
+    font-size: 40px;
     font-family: Lobster;
     font-weight: bold;
+    padding: 0%;
  }
 
  #header-img{
