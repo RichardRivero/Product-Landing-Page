@@ -1,10 +1,7 @@
 
-
-
 header{
     font-size:1.75em;
 }
-
 
 #header{
     position: fixed;
@@ -59,8 +56,6 @@ body{
     height: 240x;
     border-radius: 25px;
 }
-
-
 
 .counter-toy{
     margin:auto;
