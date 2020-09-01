@@ -45,23 +45,16 @@ header{
     font-weight: bold;
 }
 
-
 body{
     background-color: bisque;
     margin-top: 150px;
 }
 
-.s-video{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.s-video header{
-    flex-grow: 5;   /*hay que ir modificando*/
-}
 #video-t{
-    flex-wrap: 1;    /* hay que modificar */
+    position: relative;
+    left:35%;
+    margin:20px 0px 20px 0px;
+   /* hay que modificar */
     width: 324px; /* 640   324 480 */
     height: 240x;
     border-radius: 25px;
@@ -77,14 +70,16 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-
 .img-toy{
     border-radius: 20px;
     width: 215px;
     height: 200px;
     margin: 10px
 } 
-
+.img-toy:hover{
+    width: 330px;
+    height: 300px; 
+}
 form, footer{
     display: block;
 }
@@ -108,6 +103,10 @@ form, footer{
     font-size: 20px;
     text-decoration: none; /*quita la decoracion del texto */
     border-radius: 10px;
+}
+
+#nav-bar li a:hover{
+    background-color: #ec9c9c;
 }
 
 article{
